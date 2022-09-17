@@ -1,14 +1,9 @@
-## Micronaut 3.6.3 Documentation
+## Support for meta-annotations in Micronaut Web
 
-- [User Guide](https://docs.micronaut.io/3.6.3/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.6.3/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.6.3/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
+* [support user-defined controller annotations](https://youtrack.jetbrains.com/issue/IDEA-301608)
+* [the controller-level mappings are ignored for the user-defined controller annotations](https://youtrack.jetbrains.com/issue/IDEA-301971/Micronaut-the-controller-level-mappings-are-ignored-for-the-user-defined-controller-annotations)
 
----
-
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
-
+Also:
+* [support multiple URIs for HTTP controllers](https://youtrack.jetbrains.com/issue/IDEA-226517)
+* [support @Controller#port on HTTP request generating for the url](https://youtrack.jetbrains.com/issue/IDEA-301969)
+* [support property references inside @Controller#port](https://youtrack.jetbrains.com/issue/IDEA-301968)

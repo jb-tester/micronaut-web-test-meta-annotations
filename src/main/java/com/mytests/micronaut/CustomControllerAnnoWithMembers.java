@@ -11,7 +11,7 @@ import io.micronaut.http.annotation.UriMapping;
  * *
  */
 @Controller(consumes = {"application/json", "text/plain"}, produces = {"text/plain"})
-public @interface CustomControllerAnno1 {
+public @interface CustomControllerAnnoWithMembers {
     @AliasFor(annotation = Controller.class, member = "value")
     String value() default UriMapping.DEFAULT_URI;
 

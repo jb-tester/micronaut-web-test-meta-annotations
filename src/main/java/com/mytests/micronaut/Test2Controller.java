@@ -1,6 +1,5 @@
 package com.mytests.micronaut;
 
-import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
 
 /**
@@ -9,7 +8,7 @@ import io.micronaut.http.annotation.Get;
  * <p>Project: micronaut-web-test-meta-annotations</p>
  * *
  */
-@CustomControllerAnno1("/test2")
+@CustomControllerAnnoWithMembers("/test2")
 public class Test2Controller {
     
     @Get("/get1")

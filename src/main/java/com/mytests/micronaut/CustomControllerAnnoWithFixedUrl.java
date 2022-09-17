@@ -1,8 +1,6 @@
 package com.mytests.micronaut;
 
-import io.micronaut.context.annotation.AliasFor;
 import io.micronaut.http.annotation.Controller;
-import io.micronaut.http.annotation.UriMapping;
 
 /**
  * *
@@ -11,6 +9,6 @@ import io.micronaut.http.annotation.UriMapping;
  * *
  */
 @Controller(value = "/test4", consumes = {"application/json", "text/plain"}, produces = {"text/plain"})
-public @interface CustomControllerAnno2 {
+public @interface CustomControllerAnnoWithFixedUrl {
     
 }

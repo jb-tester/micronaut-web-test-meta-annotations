@@ -8,7 +8,7 @@ import io.micronaut.http.annotation.Get;
  * <p>Project: micronaut-web-test-meta-annotations</p>
  * *
  */
-@CustomControllerAnno1(path="/test3")
+@CustomControllerAnnoWithMembers(path="/test3")
 public class Test3Controller {
     
     @Get("/get1")
