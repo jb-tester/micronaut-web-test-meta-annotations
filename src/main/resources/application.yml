@@ -8,3 +8,5 @@ netty:
 myserver:
   port:
     number: 8088
+  mapping:
+    path: foo

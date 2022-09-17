@@ -22,4 +22,9 @@ public class Test1Controller {
     public String m12(){
         return "m12";
     }
+
+    @Get(uri = "/get3/${myserver.mapping.path}")
+    public String m13(){
+        return "m13";
+    }
 }
